@@ -1,4 +1,5 @@
 # koulu
 kouluasia 
-Yeetness
+Yeetness is no longer here
+
 
