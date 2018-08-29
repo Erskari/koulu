@@ -1,0 +1,7 @@
+Laatu:
+Dokumenttien laatu voidaan varmistaa k‰ytt‰m‰ll‰ niihin tarpeeksi aikaa ja tekem‰ll‰ ne huolellisesti.
+
+Tuotteen laatu pysyy yll‰ jos pidet‰‰n riitt‰v‰sti kokouksia, tehd‰‰n hyv‰t suunnitelmat
+ja tehd‰‰n riitt‰v‰sti testauksia.
+
+Laadunvalvontakatselmuksissa k‰yd‰‰n projekti l‰pi hyvin tarkasti etsien siit‰ virheit‰.
