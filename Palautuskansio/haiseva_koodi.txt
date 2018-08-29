@@ -1,0 +1,3 @@
+Haiseva koodi on koodia joka on tavallaan kirjoitettu oikein mutta sen voisi tehdä
+helpommin tai järkevämmin jollain muulla tavalla. Haiseva koodi voi myös olla koodia
+joka saattaa hidastaa tai vaikeuttaa koodin kehittämistä tulevaisuudessa.
