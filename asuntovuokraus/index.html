@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Asuntovuokraus</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+	  position: absolute;
+	  right: 0;
+	  padding-top: 20px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+	  position: fixed;
+      background-color: #555;
+      color: white;
+      padding: 15px;
+	  left: 0px;
+	  bottom: 0px;
+	  width: 100%;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html"><img src="logo.jpg" alt="yeet" height="35" width="35"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Koti</a></li>
+        <li><a href="#">Hae asuntoa</a></li>
+        <li><a href="#">Täytä asuntohakemus</a></li>
+        <li><a href="#">Tietoa asunnoista</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Kirjaudu sisään</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-10 text-left"> 
+      <h1>Harjotustyö, tyyliopas</h1>
+	  <hr>
+	        <h2>Yleistä</h2>
+		<ul>
+			<li>Värit sivulla ovat musta, valkoinen ja harmaa.</li>
+			<li>Logon ympärille tulee 10 pikselin suoja-alue.</li>
+		</ul>
+	<hr>
+		    <h2>Header & Footer</h2>
+		<ul>
+			<li>Headeriin tulee logo ja linkit "Koti", "Hae asuntoa", "Täytä asuntohakemus", "Tietoa asunnosta" ja "Kirjaudu sisään"</li>
+			<li>Footeriin tulee Copyright teksti</li>
+			<li>Fontin väri sivulla on headerissa ja footerissa valkoinen.</li>
+		</ul>
+	<hr>
+      <h2>Typografia</h2>
+		<ul>
+			<li>Fontti jota käytän on Helvetica.</li>
+			<li>Fontin koko otsikoissa on 27, väliotsikossa 22,5 ja leipätekstin koko on 10,5.</li>
+			<li>Fontin väri sivulla on musta.</li>
+		</ul>
+		<hr>
+		<h2>Sisältölaatikot (divit)</h2>
+		<ul>
+			<li>Sivulle tulee header, footer ja kaksi diviä</li>
+			<li>Header on koko sivun levyinen, korkeus on logon korekus + 20px</li>
+			<li>Footer on koko sivun levyinen, korkeus on 45px</li>
+			<li>Main div on 83,33% sivun leveydestä</li>
+			<li>Side div on 16,66% sivun leveydestä</li>
+		</ul>
+		<hr>
+		<h2>Valokuvat</h2>
+		<ul>
+			<li>Valokuvat etusivulla ovat sivun oikeassa laidassa.</li>
+			<li>Valokuvat "Tietoa asunnoista" sivulla ovat sivun keskellä.</li>
+			<li>Valokuvat sivulla tulevat olemaan noin. 250px x 200px.</li>
+		</ul>
+		<hr>
+	  
+    </div>
+    <div class="col-sm-2 sidenav">
+      <div class="well">
+       <img src="/asuntovuokraus/kuvat/asunto1.jpg" alt="asunto1"><br/><a href="/asuntovuokraus/index.html">Linkki asuntoon<a/>
+      </div>
+	  <div class="well">
+        <img src="/asuntovuokraus/kuvat/asunto2.jpg" alt="asunto2"><br/><a href="/asuntovuokraus/index.html">Linkki asuntoon<a/>
+      </div>
+	  <div class="well">
+        <img src="/asuntovuokraus/kuvat/asunto3.jpg" alt="asunto3"><br/><a href="/asuntovuokraus/index.html">Linkki asuntoon<a/>
+      </div>
+      </div>
+    </div>
+  </div>
+
+<footer class="container-fluid text-center">
+  <p>Asuntovuokraus Oy 2018&copy;</p>
+</footer>
+
+</body>
+</html>
