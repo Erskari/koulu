@@ -1,0 +1,12 @@
+Tehtävä 1
+Puutteet:
+	Tietokantakaavion kaikkia foreign keyta ei ole merkitty.
+	Joistain käyttötapauksista puuttuu kuvia
+	Käyttötapauskaavio puuttuu.
+
+Dokumentti oli tarpeeksi kattava.
+
+Tehtävä 4
+
+Tietokantaan voi lisätä ja etsiä tietoa.
+
